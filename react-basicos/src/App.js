@@ -5,6 +5,11 @@ import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import Listas from "./components/Listas";
+import Contador from "./components/Contador";
+import Reloj from "./components/Reloj";
+import Api from "./components/Api";
+import ContadorHooks from "./components/ContadorHooks";
 
 function App() {
   return (
@@ -42,6 +47,31 @@ function App() {
           {/* console.table(Propiedades) */}
           <Estado />
           <RenderizadoCondicional />
+          <Listas />
+          <hr />
+        </section>
+        <section>
+          <h2>Eventos</h2>
+          <Contador />
+          <Contador titulo="Likes" />
+        </section>
+        <section>
+          <hr />
+          <h2>Ciclo de Vida de los Componentes</h2>
+          <Reloj />
+          <br />
+          <br />
+          <hr />
+        </section>
+        <section>
+          <h2>Consumo de Datos</h2>
+          <Api />
+          <br />
+          <hr />
+        </section>
+        <section>
+          <h2>Hooks</h2>
+          <ContadorHooks />
         </section>
       </header>
     </div>
