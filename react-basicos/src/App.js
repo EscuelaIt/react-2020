@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Componente from "./components/Componente";
@@ -10,8 +10,12 @@ import Contador from "./components/Contador";
 import Reloj from "./components/Reloj";
 import Api from "./components/Api";
 import ContadorHooks from "./components/ContadorHooks";
+import RelojHooks from "./components/RelojHooks";
+import ApiHooks from "./components/ApiHooks";
 
 function App() {
+  const [reloj, setReloj] = useState(true);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -58,7 +62,7 @@ function App() {
         <section>
           <hr />
           <h2>Ciclo de Vida de los Componentes</h2>
-          <Reloj />
+          {reloj ? <Reloj /> : null}
           <br />
           <br />
           <hr />
@@ -72,6 +76,12 @@ function App() {
         <section>
           <h2>Hooks</h2>
           <ContadorHooks />
+          {reloj ? <RelojHooks /> : null}
+          <br />
+          <button onClick={() => setReloj(!reloj)}>
+            {reloj ? "Ocultar Relojes" : "Mostar Relojes"}
+          </button>
+          <ApiHooks />
         </section>
       </header>
     </div>

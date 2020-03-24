@@ -51,9 +51,9 @@ Clases a las 18hrs de España (11hrs de México) los días:
 - React Router.
 - Componentes básicos
 - Enrutado básico
+- Manejo de rutas inexistentes
 - Paso de parámetros
 - Anidaciones y redirecciones
-- Manejo de rutas inexistentes
 
 ## Desarrollando y desplegando App React
 
