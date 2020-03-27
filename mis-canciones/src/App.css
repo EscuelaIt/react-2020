@@ -1,0 +1,31 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-header img {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+}
+
+.App-header img {
+  max-width: 64px;
+  height: auto;
+}
