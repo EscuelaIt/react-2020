@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/EscuelaIt/react-2020/static/css/main.6dbe2ff7.chunk.css",
+    "main.js": "/EscuelaIt/react-2020/static/js/main.91aa29fb.chunk.js",
+    "main.js.map": "/EscuelaIt/react-2020/static/js/main.91aa29fb.chunk.js.map",
+    "runtime-main.js": "/EscuelaIt/react-2020/static/js/runtime-main.4f189238.js",
+    "runtime-main.js.map": "/EscuelaIt/react-2020/static/js/runtime-main.4f189238.js.map",
+    "static/js/2.49ccdd19.chunk.js": "/EscuelaIt/react-2020/static/js/2.49ccdd19.chunk.js",
+    "static/js/2.49ccdd19.chunk.js.map": "/EscuelaIt/react-2020/static/js/2.49ccdd19.chunk.js.map",
+    "index.html": "/EscuelaIt/react-2020/index.html",
+    "precache-manifest.0e7f57e29f86a464ba7e11e193456f80.js": "/EscuelaIt/react-2020/precache-manifest.0e7f57e29f86a464ba7e11e193456f80.js",
+    "service-worker.js": "/EscuelaIt/react-2020/service-worker.js",
+    "static/css/main.6dbe2ff7.chunk.css.map": "/EscuelaIt/react-2020/static/css/main.6dbe2ff7.chunk.css.map",
+    "static/js/2.49ccdd19.chunk.js.LICENSE.txt": "/EscuelaIt/react-2020/static/js/2.49ccdd19.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/EscuelaIt/react-2020/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f189238.js",
+    "static/js/2.49ccdd19.chunk.js",
+    "static/css/main.6dbe2ff7.chunk.css",
+    "static/js/main.91aa29fb.chunk.js"
+  ]
+}
