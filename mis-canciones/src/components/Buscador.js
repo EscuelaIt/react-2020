@@ -18,11 +18,36 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const Buscador = () => {
+const Buscador = ({ search, setSearch, setError }) => {
   const classes = useStyles();
 
+  const handleSubmit = e => {
+    e.preventDefault();
+
+    setSearch({
+      artist: e.target.artist.value,
+      song: e.target.song.value,
+      request: true
+    });
+  };
+
+  const handleReset = e => {
+    setSearch({
+      artist: "",
+      song: "",
+      request: false
+    });
+
+    setError(false);
+  };
+
   return (
-    <form className={classes.root} autoComplete="on">
+    <form
+      className={classes.root}
+      autoComplete="on"
+      onSubmit={handleSubmit}
+      onReset={handleReset}
+    >
       <IconButton color="primary" type="reset">
         <HomeIcon />
       </IconButton>
@@ -32,6 +57,14 @@ const Buscador = () => {
         label="Artista"
         variant="outlined"
         size="small"
+        value={search.artist}
+        onChange={e => {
+          setSearch({
+            ...search,
+            artist: e.target.value,
+            request: false
+          });
+        }}
         required
       />
       <TextField
@@ -40,6 +73,14 @@ const Buscador = () => {
         label="Canción"
         variant="outlined"
         size="small"
+        value={search.song}
+        onChange={e => {
+          setSearch({
+            ...search,
+            song: e.target.value,
+            request: false
+          });
+        }}
         required
       />
       <IconButton color="primary" type="submit">
