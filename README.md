@@ -4,15 +4,6 @@
 
 Aprende a desarrollar interfaces de usuario y aplicaciones web frontend con React.
 
-Clases a las 18hrs de España (11hrs de México) los días:
-
-1. Miércoles 18 de Marzo.
-1. Viernes 20 de Marzo.
-1. Lunes 23 de Marzo.
-1. Martes 24 de Marzo.
-1. Jueves 26 de Marzo.
-1. Lunes 30 de Marzo.
-
 ## Primeros Pasos con React
 
 - Introducción y Características de React
@@ -58,3 +49,4 @@ Clases a las 18hrs de España (11hrs de México) los días:
 ## Desarrollando y desplegando App React
 
 - Desarrollo de una aplicación Web React aplicando todo lo visto en el curso y desplegándola en producción.
+- [Proyecto desplegado](https://escuelait.github.io/react-2020/)
